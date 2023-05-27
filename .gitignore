@@ -7,7 +7,7 @@ build/
 # Ignore all files in the history
 .history/
 
-
+*.log
 *~
 *.autosave
 *.a
