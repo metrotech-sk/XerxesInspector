@@ -15,7 +15,7 @@ from utils import devIdTable
 import logging
 import argparse
 import serial
-import threading
+import time
 import xerxes_protocol as xp
 
 log = logging.getLogger(__name__)
@@ -42,6 +42,7 @@ class DiscoverComPorts(QtCore.QThread):
         for portnum in range(1,100):
             try:
                 portname = f"COM{portnum}"
+                self.sigLog.emit(f"Trying port {portname}")
                 port = serial.Serial(portname, timeout=.01, baudrate=115200)
                 port.close()
                 self.sigAvailablePorts.emit(portname)
@@ -50,6 +51,40 @@ class DiscoverComPorts(QtCore.QThread):
 
             except serial.SerialException:
                 pass
+        
+        self.sigLog.emit("Done")
+        self.sigDone.emit(True)
+
+
+class DiscoverLeaves(QtCore.QThread):
+    sigAvailableLeaves = QtCore.Signal(xp.Leaf)
+    sigLog = QtCore.Signal(str)
+    sigDone = QtCore.Signal(bool)
+
+    def __init__(self, port, range=5):
+        super().__init__()
+        self.port = port
+        self._r = range
+    
+    def run(self):
+        log.info(f"Discovering leaves on port {self.port}")
+
+        self._xn = xp.XerxesNetwork(self.port)
+        self._xn.init()
+        self._xr = xp.XerxesRoot(0xfe, self._xn)
+
+        for leaf_addr in range(0, self._r):
+            leaf = xp.Leaf(leaf_addr, self._xr)
+            try:
+                log.info(f"Trying leaf {leaf_addr}")
+                self.sigLog.emit(f"Looking for sensor with address: {leaf_addr}")
+                leaf.ping()
+                self.sigAvailableLeaves.emit(leaf)
+                self.sigLog.emit(f"Found sensor: {leaf}")
+            except TimeoutError:
+                pass
+
+        self.sigLog.emit("Done")
         self.sigDone.emit(True)
 
 
@@ -79,8 +114,11 @@ class MainWindow(QMainWindow):
     def rescanPort(self, _v=None):
         """Discover the COM port of the Xerxes device."""
         self.ui.comboBoxComPorts.clear()
-        
         self.ui.progressBar.setVisible(True)
+        try:
+            self.port.close()
+        except AttributeError:
+            pass
 
         self.threadDiscoverComPorts = DiscoverComPorts()
         self.threadDiscoverComPorts.sigAvailablePorts.connect(
@@ -130,16 +168,40 @@ class MainWindow(QMainWindow):
         except AttributeError:
             pass
         self.port = serial.Serial(port or self.ui.comboBoxComPorts.currentText())
-        self._get_leaves()
-        log.info(f"Found {len(self.leaves)} leaves")
-        self.ui.buttonRescanLeaves.setEnabled(True)
         self.ui.listWidgetLeaves.clear()
-        self.ui.listWidgetLeaves.addItems([str(leaf) for leaf in self.leaves])
+        self.ui.progressBar.setVisible(True)
+        self.ui.buttonRescanLeaves.setEnabled(False)
+
+        self.threadDiscoverLeaves = DiscoverLeaves(self.port)
+        self.leaves = []
+
+        def _f(leaf: xp.Leaf):
+            self.ui.listWidgetLeaves.addItem(str(leaf))
+            self.leaves.append(leaf)
+        self.threadDiscoverLeaves.sigAvailableLeaves.connect(
+            _f
+        )
+
+        def _f():
+            self.ui.progressBar.setVisible(False)
+        self.threadDiscoverLeaves.sigDone.connect(
+            _f
+        )
+        self.threadDiscoverLeaves.sigLog.connect(
+            self.updateStatusBar
+        )
+        self.threadDiscoverLeaves.sigDone.connect(
+            self.ui.buttonRescanLeaves.setEnabled
+        )
+        self.threadDiscoverLeaves.start()
 
     def leafSelected(self, index):
         log.info(f"Selected leaf: {index.row()}")
         self.leaf: xp.Leaf = self.leaves[index.row()]
         pingReply: xp.XerxesPingReply = self.leaf.ping()
+        self.ui.labelVersion.setText(
+            f"{pingReply.v_maj}.{pingReply.v_min}"
+        )
         devId = pingReply.dev_id
         self.ui.labelLeafInfo.setText(devIdTable[devId])
 

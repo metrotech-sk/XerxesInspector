@@ -1088,3 +1088,366 @@
 2023-05-27 22:42:00,741 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
 2023-05-27 22:42:00,805 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
 2023-05-27 22:42:00,805 rescanLeaves:134 Found 1 leaves
+2023-05-27 22:44:36,777 run:49 Found port: COM3
+2023-05-27 22:44:37,836 rescanLeaves:127 Selected port: False
+2023-05-27 22:44:37,970 _get_leaves:111 Discovering leaves on port Serial<id=0x2212b21c040, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:44:38,210 _get_leaves:120 Trying leaf 0
+2023-05-27 22:44:38,213 _get_leaves:120 Trying leaf 1
+2023-05-27 22:44:38,276 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:44:38,340 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:44:38,401 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:44:38,401 _get_leaves:120 Trying leaf 2
+2023-05-27 22:44:38,463 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:44:38,525 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:44:38,589 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:44:38,589 _get_leaves:120 Trying leaf 3
+2023-05-27 22:44:38,652 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:44:38,714 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:44:38,776 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:44:38,776 _get_leaves:120 Trying leaf 4
+2023-05-27 22:44:38,838 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:44:38,899 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:44:38,961 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:44:38,961 rescanLeaves:134 Found 1 leaves
+2023-05-27 22:44:40,309 leafSelected:140 Selected leaf: 0
+2023-05-27 22:45:00,664 run:49 Found port: COM3
+2023-05-27 22:45:01,577 rescanLeaves:127 Selected port: False
+2023-05-27 22:45:01,711 _get_leaves:111 Discovering leaves on port Serial<id=0x24a5011c040, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:45:01,945 _get_leaves:120 Trying leaf 0
+2023-05-27 22:45:01,948 _get_leaves:120 Trying leaf 1
+2023-05-27 22:45:02,006 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:02,069 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:02,132 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:02,132 _get_leaves:120 Trying leaf 2
+2023-05-27 22:45:02,195 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:02,258 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:02,320 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:02,320 _get_leaves:120 Trying leaf 3
+2023-05-27 22:45:02,381 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:02,445 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:02,509 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:02,509 _get_leaves:120 Trying leaf 4
+2023-05-27 22:45:02,572 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:02,635 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:02,699 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:02,699 rescanLeaves:134 Found 1 leaves
+2023-05-27 22:45:03,866 leafSelected:140 Selected leaf: 0
+2023-05-27 22:45:53,122 run:49 Found port: COM3
+2023-05-27 22:45:53,878 rescanLeaves:127 Selected port: False
+2023-05-27 22:45:54,013 _get_leaves:111 Discovering leaves on port Serial<id=0x2038951c040, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:45:54,253 _get_leaves:120 Trying leaf 0
+2023-05-27 22:45:54,256 _get_leaves:120 Trying leaf 1
+2023-05-27 22:45:54,308 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:54,371 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:54,433 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:54,433 _get_leaves:120 Trying leaf 2
+2023-05-27 22:45:54,495 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:54,558 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:54,621 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:54,621 _get_leaves:120 Trying leaf 3
+2023-05-27 22:45:54,682 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:54,744 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:54,807 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:54,807 _get_leaves:120 Trying leaf 4
+2023-05-27 22:45:54,870 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:45:54,934 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:45:54,997 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:45:54,997 rescanLeaves:134 Found 1 leaves
+2023-05-27 22:45:55,373 leafSelected:140 Selected leaf: 0
+2023-05-27 22:46:39,075 run:49 Found port: COM3
+2023-05-27 22:46:39,728 rescanLeaves:127 Selected port: False
+2023-05-27 22:46:39,862 _get_leaves:111 Discovering leaves on port Serial<id=0x2bbad91c040, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:46:40,091 _get_leaves:120 Trying leaf 0
+2023-05-27 22:46:40,094 _get_leaves:120 Trying leaf 1
+2023-05-27 22:46:40,158 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:46:40,221 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:46:40,284 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:46:40,284 _get_leaves:120 Trying leaf 2
+2023-05-27 22:46:40,348 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:46:40,411 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:46:40,474 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:46:40,474 _get_leaves:120 Trying leaf 3
+2023-05-27 22:46:40,536 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:46:40,599 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:46:40,662 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:46:40,662 _get_leaves:120 Trying leaf 4
+2023-05-27 22:46:40,725 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:46:40,789 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:46:40,851 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:46:40,851 rescanLeaves:134 Found 1 leaves
+2023-05-27 22:46:41,270 leafSelected:140 Selected leaf: 0
+2023-05-27 22:46:44,600 fget:162 Reading memory element:device_address at address:44, type:B.
+2023-05-27 22:46:44,603 fget:171 Read value: 0
+2023-05-27 22:46:44,603 address:345 Setting address from: 0 to: 1.
+2023-05-27 22:46:44,603 setter:189 Writing memory element:device_address at address:44, type:B, value:1.
+2023-05-27 22:46:44,784 write_reg_net:296 Write successful.
+2023-05-27 22:46:44,784 fget:162 Reading memory element:device_address at address:44, type:B.
+2023-05-27 22:46:44,786 fget:171 Read value: 1
+2023-05-27 22:46:44,786 address:349 Address set to: 1
+2023-05-27 22:54:45,279 run:49 Found port: COM3
+2023-05-27 22:54:47,014 rescanLeaves:157 Selected port: False
+2023-05-27 22:54:47,150 run:67 Discovering leaves on port Serial<id=0x1ae5a09d750, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:54:47,377 run:76 Trying leaf 0
+2023-05-27 22:54:47,417 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:54:47,457 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:54:47,498 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:54:47,498 run:76 Trying leaf 1
+2023-05-27 22:54:47,501 run:76 Trying leaf 2
+2023-05-27 22:54:47,541 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:54:47,581 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:54:47,622 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:54:47,622 run:76 Trying leaf 3
+2023-05-27 22:54:47,663 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:54:47,703 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:54:47,744 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:54:47,744 run:76 Trying leaf 4
+2023-05-27 22:54:47,785 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:54:47,825 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:54:47,865 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:54:56,767 leafSelected:189 Selected leaf: 0
+2023-05-27 22:55:40,238 run:49 Found port: COM3
+2023-05-27 22:55:41,279 rescanLeaves:157 Selected port: False
+2023-05-27 22:55:41,414 run:67 Discovering leaves on port Serial<id=0x24936c9d870, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:55:41,641 run:76 Trying leaf 0
+2023-05-27 22:55:41,681 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:55:41,721 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:55:41,761 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:55:41,761 run:76 Trying leaf 1
+2023-05-27 22:55:41,764 run:76 Trying leaf 2
+2023-05-27 22:55:41,805 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:55:41,845 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:55:41,885 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:55:41,885 run:76 Trying leaf 3
+2023-05-27 22:55:41,925 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:55:41,965 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:55:42,005 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:55:42,005 run:76 Trying leaf 4
+2023-05-27 22:55:42,045 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:55:42,087 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:55:42,128 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:56:33,164 run:49 Found port: COM3
+2023-05-27 22:56:34,933 rescanLeaves:158 Selected port: False
+2023-05-27 22:56:35,068 run:67 Discovering leaves on port Serial<id=0x270e749d930, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:56:35,302 run:76 Trying leaf 0
+2023-05-27 22:56:35,343 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:56:35,383 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:56:35,423 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:56:35,423 run:76 Trying leaf 1
+2023-05-27 22:56:35,426 run:76 Trying leaf 2
+2023-05-27 22:56:35,467 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:56:35,508 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:56:35,549 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:56:35,549 run:76 Trying leaf 3
+2023-05-27 22:56:35,590 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:56:35,631 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:56:35,671 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:56:35,671 run:76 Trying leaf 4
+2023-05-27 22:56:35,712 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:56:35,752 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:56:35,792 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:21,802 run:49 Found port: COM3
+2023-05-27 22:57:23,453 rescanLeaves:159 Selected port: False
+2023-05-27 22:57:23,587 run:67 Discovering leaves on port Serial<id=0x234db899a80, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:57:23,815 run:76 Trying leaf 0
+2023-05-27 22:57:23,855 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:23,897 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:23,938 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:23,938 run:76 Trying leaf 1
+2023-05-27 22:57:23,941 run:76 Trying leaf 2
+2023-05-27 22:57:23,983 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:24,023 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:24,064 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:24,064 run:76 Trying leaf 3
+2023-05-27 22:57:24,104 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:24,144 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:24,184 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:24,184 run:76 Trying leaf 4
+2023-05-27 22:57:24,224 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:24,264 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:24,304 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:49,492 rescanLeaves:159 Selected port: False
+2023-05-27 22:57:49,631 run:67 Discovering leaves on port Serial<id=0x234db89b820, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:57:49,858 run:76 Trying leaf 0
+2023-05-27 22:57:49,899 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:49,939 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:49,979 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:49,979 run:76 Trying leaf 1
+2023-05-27 22:57:49,982 run:76 Trying leaf 2
+2023-05-27 22:57:50,023 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:50,064 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:50,104 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:50,104 run:76 Trying leaf 3
+2023-05-27 22:57:50,145 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:50,185 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:50,226 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:50,226 run:76 Trying leaf 4
+2023-05-27 22:57:50,267 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:50,307 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:50,348 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:56,888 rescanLeaves:159 Selected port: False
+2023-05-27 22:57:57,028 run:67 Discovering leaves on port Serial<id=0x234db899750, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:57:57,261 run:76 Trying leaf 0
+2023-05-27 22:57:57,301 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:57,342 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:57,382 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:57,382 run:76 Trying leaf 1
+2023-05-27 22:57:57,385 run:76 Trying leaf 2
+2023-05-27 22:57:57,428 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:57,469 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:57,510 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:57,510 run:76 Trying leaf 3
+2023-05-27 22:57:57,551 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:57,591 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:57,632 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:57,632 run:76 Trying leaf 4
+2023-05-27 22:57:57,672 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:57,713 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:57,755 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:58,858 rescanLeaves:159 Selected port: False
+2023-05-27 22:57:58,998 run:67 Discovering leaves on port Serial<id=0x234db8991b0, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:57:59,231 run:76 Trying leaf 0
+2023-05-27 22:57:59,273 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:59,314 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:59,355 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:59,355 run:76 Trying leaf 1
+2023-05-27 22:57:59,358 run:76 Trying leaf 2
+2023-05-27 22:57:59,398 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:59,438 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:59,479 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:59,479 run:76 Trying leaf 3
+2023-05-27 22:57:59,519 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:59,560 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:59,601 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:57:59,601 run:76 Trying leaf 4
+2023-05-27 22:57:59,642 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:57:59,682 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:57:59,723 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:12,888 rescanLeaves:159 Selected port: False
+2023-05-27 22:58:44,003 run:49 Found port: COM3
+2023-05-27 22:58:45,070 rescanLeaves:162 Selected port: False
+2023-05-27 22:58:45,206 run:67 Discovering leaves on port Serial<id=0x29c7f699bd0, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:58:45,433 run:76 Trying leaf 0
+2023-05-27 22:58:45,474 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:45,514 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:45,554 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:45,554 run:76 Trying leaf 1
+2023-05-27 22:58:45,557 run:76 Trying leaf 2
+2023-05-27 22:58:45,597 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:45,638 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:45,680 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:45,680 run:76 Trying leaf 3
+2023-05-27 22:58:45,720 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:45,761 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:45,801 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:45,801 run:76 Trying leaf 4
+2023-05-27 22:58:45,841 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:45,882 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:45,922 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:47,964 run:49 Found port: COM3
+2023-05-27 22:58:48,848 run:49 Found port: COM3
+2023-05-27 22:58:49,496 run:49 Found port: COM3
+2023-05-27 22:58:50,327 run:49 Found port: COM3
+2023-05-27 22:58:51,627 rescanLeaves:162 Selected port: False
+2023-05-27 22:58:51,762 run:67 Discovering leaves on port Serial<id=0x29c7f730100, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:58:52,002 run:76 Trying leaf 0
+2023-05-27 22:58:52,042 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:52,082 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:52,122 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:52,122 run:76 Trying leaf 1
+2023-05-27 22:58:52,125 run:76 Trying leaf 2
+2023-05-27 22:58:52,166 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:52,206 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:52,246 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:52,246 run:76 Trying leaf 3
+2023-05-27 22:58:52,287 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:52,328 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:52,368 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:52,368 run:76 Trying leaf 4
+2023-05-27 22:58:52,408 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:52,449 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:52,489 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:52,883 leafSelected:196 Selected leaf: 0
+2023-05-27 22:58:54,605 rescanLeaves:162 Selected port: False
+2023-05-27 22:58:54,744 run:67 Discovering leaves on port Serial<id=0x29c7f69b7c0, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:58:54,971 run:76 Trying leaf 0
+2023-05-27 22:58:55,011 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:55,051 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:55,091 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:55,091 run:76 Trying leaf 1
+2023-05-27 22:58:55,094 run:76 Trying leaf 2
+2023-05-27 22:58:55,137 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:55,178 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:55,219 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:55,219 run:76 Trying leaf 3
+2023-05-27 22:58:55,259 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:55,301 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:55,341 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:55,341 run:76 Trying leaf 4
+2023-05-27 22:58:55,381 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:58:55,422 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:58:55,462 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:58:56,107 leafSelected:196 Selected leaf: 0
+2023-05-27 22:59:01,460 run:49 Found port: COM3
+2023-05-27 22:59:06,542 rescanLeaves:162 Selected port: False
+2023-05-27 22:59:06,678 run:67 Discovering leaves on port Serial<id=0x1f73c899bd0, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 22:59:06,905 run:76 Trying leaf 0
+2023-05-27 22:59:06,946 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:59:06,987 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:59:07,027 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:59:07,027 run:76 Trying leaf 1
+2023-05-27 22:59:07,030 run:76 Trying leaf 2
+2023-05-27 22:59:07,071 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:59:07,111 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:59:07,151 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:59:07,151 run:76 Trying leaf 3
+2023-05-27 22:59:07,192 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:59:07,233 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:59:07,274 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:59:07,274 run:76 Trying leaf 4
+2023-05-27 22:59:07,314 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 22:59:07,355 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 22:59:07,395 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 22:59:32,733 run:50 Found port: COM3
+2023-05-27 23:00:06,152 run:51 Found port: COM3
+2023-05-27 23:00:18,858 run:51 Found port: COM3
+2023-05-27 23:00:29,819 run:50 Found port: COM3
+2023-05-27 23:00:40,436 rescanLeaves:165 Selected port: False
+2023-05-27 23:00:40,691 run:70 Discovering leaves on port Serial<id=0x253ffd95d20, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 23:00:40,918 run:79 Trying leaf 0
+2023-05-27 23:00:40,959 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:00:41,000 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:00:41,040 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:00:41,040 run:79 Trying leaf 1
+2023-05-27 23:00:41,044 run:79 Trying leaf 2
+2023-05-27 23:00:41,084 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:00:41,125 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:00:41,165 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:00:41,165 run:79 Trying leaf 3
+2023-05-27 23:00:41,206 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:00:41,247 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:00:41,287 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:00:41,287 run:79 Trying leaf 4
+2023-05-27 23:00:41,327 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:00:41,367 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:00:41,407 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:01:22,777 run:50 Found port: COM3
+2023-05-27 23:01:24,407 rescanLeaves:165 Selected port: False
+2023-05-27 23:01:24,542 run:70 Discovering leaves on port Serial<id=0x1a5a1f95c90, open=True>(port='COM3', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False)
+2023-05-27 23:01:24,775 run:79 Trying leaf 0
+2023-05-27 23:01:24,816 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:01:24,856 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:01:24,897 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:01:24,897 run:79 Trying leaf 1
+2023-05-27 23:01:24,900 run:79 Trying leaf 2
+2023-05-27 23:01:24,940 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:01:24,980 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:01:25,021 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:01:25,021 run:79 Trying leaf 3
+2023-05-27 23:01:25,061 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:01:25,101 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:01:25,141 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:01:25,141 run:79 Trying leaf 4
+2023-05-27 23:01:25,182 ping:150 Timeout while waiting for ping reply, attempt 1 of 3
+2023-05-27 23:01:25,222 ping:150 Timeout while waiting for ping reply, attempt 2 of 3
+2023-05-27 23:01:25,262 ping:150 Timeout while waiting for ping reply, attempt 3 of 3
+2023-05-27 23:01:30,615 leafSelected:199 Selected leaf: 0

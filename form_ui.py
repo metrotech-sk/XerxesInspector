@@ -27,6 +27,7 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(1032, 716)
+        MainWindow.setWindowOpacity(1.000000000000000)
         MainWindow.setStyleSheet(u"/*\n"
 "ManjaroMix Style Sheet for QT Applications\n"
 "Author: Jaime A. Quiroga P.\n"
@@ -815,11 +816,11 @@ class Ui_MainWindow(object):
 
         self.formLayout.setWidget(2, QFormLayout.LabelRole, self.label)
 
-        self.label_6 = QLabel(self.tabSettings)
-        self.label_6.setObjectName(u"label_6")
-        self.label_6.setFont(font1)
+        self.labelVersion = QLabel(self.tabSettings)
+        self.labelVersion.setObjectName(u"labelVersion")
+        self.labelVersion.setFont(font1)
 
-        self.formLayout.setWidget(2, QFormLayout.FieldRole, self.label_6)
+        self.formLayout.setWidget(2, QFormLayout.FieldRole, self.labelVersion)
 
         self.tabWidget.addTab(self.tabSettings, "")
 
@@ -831,7 +832,7 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout.addWidget(self.frame_2)
 
-        self.horizontalLayout.setStretch(0, 3)
+        self.horizontalLayout.setStretch(0, 4)
         self.horizontalLayout.setStretch(1, 6)
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(MainWindow)
@@ -847,7 +848,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"XerxesInspector", None))
         self.actionRefresh.setText(QCoreApplication.translate("MainWindow", u"Refresh", None))
 #if QT_CONFIG(shortcut)
         self.actionRefresh.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+R", None))
@@ -864,7 +865,7 @@ class Ui_MainWindow(object):
         self.checkBoxFreeRun.setText(QCoreApplication.translate("MainWindow", u"Free run", None))
         self.checkBoxCalcStat.setText(QCoreApplication.translate("MainWindow", u"Calculate statistics", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Version", None))
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"0.0", None))
+        self.labelVersion.setText(QCoreApplication.translate("MainWindow", u"0.0", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabSettings), QCoreApplication.translate("MainWindow", u"Settings", None))
     # retranslateUi
 
