@@ -10,7 +10,6 @@ import PySide6.QtCore as QtCore
 #     pyside6-uic form.ui -o ui_form.py, or
 #     pyside2-uic form.ui -o ui_form.py
 from ui_form import Ui_MainWindow
-from Discover import Discover
 from utils import devIdTable
 import logging
 import argparse
