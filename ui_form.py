@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1032, 716)
+        MainWindow.resize(1064, 653)
         MainWindow.setWindowOpacity(1.000000000000000)
         MainWindow.setStyleSheet(u"/*\n"
 "ManjaroMix Style Sheet for QT Applications\n"
@@ -763,6 +763,8 @@ class Ui_MainWindow(object):
         font3.setPointSize(10)
         font3.setBold(True)
         self.tabValues.setFont(font3)
+        self.horizontalLayout_6 = QHBoxLayout(self.tabValues)
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
         self.tabWidget.addTab(self.tabValues, "")
         self.tabSettings = QWidget()
         self.tabSettings.setObjectName(u"tabSettings")
@@ -822,6 +824,42 @@ class Ui_MainWindow(object):
 
         self.formLayout.setWidget(2, QFormLayout.FieldRole, self.labelVersion)
 
+        self.label_6 = QLabel(self.tabSettings)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setFont(font1)
+
+        self.formLayout.setWidget(3, QFormLayout.LabelRole, self.label_6)
+
+        self.labelStatus = QLabel(self.tabSettings)
+        self.labelStatus.setObjectName(u"labelStatus")
+        self.labelStatus.setFont(font1)
+
+        self.formLayout.setWidget(3, QFormLayout.FieldRole, self.labelStatus)
+
+        self.label_9 = QLabel(self.tabSettings)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setFont(font1)
+
+        self.formLayout.setWidget(4, QFormLayout.LabelRole, self.label_9)
+
+        self.labelErrors = QLabel(self.tabSettings)
+        self.labelErrors.setObjectName(u"labelErrors")
+        self.labelErrors.setFont(font1)
+
+        self.formLayout.setWidget(4, QFormLayout.FieldRole, self.labelErrors)
+
+        self.label_11 = QLabel(self.tabSettings)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setFont(font1)
+
+        self.formLayout.setWidget(5, QFormLayout.LabelRole, self.label_11)
+
+        self.labelUID = QLabel(self.tabSettings)
+        self.labelUID.setObjectName(u"labelUID")
+        self.labelUID.setFont(font1)
+
+        self.formLayout.setWidget(5, QFormLayout.FieldRole, self.labelUID)
+
         self.tabWidget.addTab(self.tabSettings, "")
 
         self.verticalLayout_11.addWidget(self.tabWidget)
@@ -832,7 +870,7 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout.addWidget(self.frame_2)
 
-        self.horizontalLayout.setStretch(0, 4)
+        self.horizontalLayout.setStretch(0, 3)
         self.horizontalLayout.setStretch(1, 6)
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QStatusBar(MainWindow)
@@ -862,10 +900,31 @@ class Ui_MainWindow(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabValues), QCoreApplication.translate("MainWindow", u"Values", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Address", None))
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"Config", None))
+#if QT_CONFIG(tooltip)
+        self.checkBoxFreeRun.setToolTip(QCoreApplication.translate("MainWindow", u"Enable measuring of the sensor. Saves a little power when disabled.", None))
+#endif // QT_CONFIG(tooltip)
         self.checkBoxFreeRun.setText(QCoreApplication.translate("MainWindow", u"Free run", None))
+#if QT_CONFIG(tooltip)
+        self.checkBoxCalcStat.setToolTip(QCoreApplication.translate("MainWindow", u"Calculate statistics like mean, stddev, min/max from last 100 measurements", None))
+#endif // QT_CONFIG(tooltip)
         self.checkBoxCalcStat.setText(QCoreApplication.translate("MainWindow", u"Calculate statistics", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Version", None))
         self.labelVersion.setText(QCoreApplication.translate("MainWindow", u"0.0", None))
+#if QT_CONFIG(tooltip)
+        self.label_6.setToolTip(QCoreApplication.translate("MainWindow", u"Status of the sensor/device [0 =IDLE]", None))
+#endif // QT_CONFIG(tooltip)
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"Status", None))
+        self.labelStatus.setText(QCoreApplication.translate("MainWindow", u"-", None))
+#if QT_CONFIG(tooltip)
+        self.label_9.setToolTip(QCoreApplication.translate("MainWindow", u"Error codes/flags stored in the device. [0 = No errors]", None))
+#endif // QT_CONFIG(tooltip)
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Error code", None))
+        self.labelErrors.setText(QCoreApplication.translate("MainWindow", u"-", None))
+#if QT_CONFIG(tooltip)
+        self.label_11.setToolTip(QCoreApplication.translate("MainWindow", u"Unique identifier of the device.", None))
+#endif // QT_CONFIG(tooltip)
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"UID", None))
+        self.labelUID.setText(QCoreApplication.translate("MainWindow", u"-", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabSettings), QCoreApplication.translate("MainWindow", u"Settings", None))
     # retranslateUi
 

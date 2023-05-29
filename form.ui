@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1032</width>
-    <height>716</height>
+    <width>1064</width>
+    <height>653</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -554,7 +554,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout" stretch="4,6">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,6">
     <item>
      <widget class="QFrame" name="frame">
       <property name="frameShape">
@@ -886,6 +886,7 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
              <attribute name="title">
               <string>Values</string>
              </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_6"/>
             </widget>
             <widget class="QWidget" name="tabSettings">
              <property name="font">
@@ -962,6 +963,9 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                      <pointsize>12</pointsize>
                     </font>
                    </property>
+                   <property name="toolTip">
+                    <string>Enable measuring of the sensor. Saves a little power when disabled.</string>
+                   </property>
                    <property name="text">
                     <string>Free run</string>
                    </property>
@@ -973,6 +977,9 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                     <font>
                      <pointsize>12</pointsize>
                     </font>
+                   </property>
+                   <property name="toolTip">
+                    <string>Calculate statistics like mean, stddev, min/max from last 100 measurements</string>
                    </property>
                    <property name="text">
                     <string>Calculate statistics</string>
@@ -1003,6 +1010,87 @@ QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                 </property>
                 <property name="text">
                  <string>0.0</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_6">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>Status of the sensor/device [0 =IDLE]</string>
+                </property>
+                <property name="text">
+                 <string>Status</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="labelStatus">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_9">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>Error codes/flags stored in the device. [0 = No errors]</string>
+                </property>
+                <property name="text">
+                 <string>Error code</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLabel" name="labelErrors">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label_11">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string>Unique identifier of the device.</string>
+                </property>
+                <property name="text">
+                 <string>UID</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLabel" name="labelUID">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>-</string>
                 </property>
                </widget>
               </item>
