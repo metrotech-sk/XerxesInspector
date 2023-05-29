@@ -100,7 +100,7 @@ class DiscoverLeaves(QtCore.QThread):
     sigLog = QtCore.Signal(str)
     sigDone = QtCore.Signal(bool)
 
-    def __init__(self, port, range=6):
+    def __init__(self, port, range=16):
         super().__init__()
         self.port = port
         self._r = range
@@ -319,6 +319,12 @@ class MainWindow(QMainWindow):
             self.port.close()
         except AttributeError:
             pass
+
+        # in case no port is selected/found
+        if self.ui.comboBoxComPorts.count() == 0:
+            self.updateStatusBar("No COM ports found, attach USB adapter and try again.")
+            return None
+        
         self.port = serial.Serial(port or self.ui.comboBoxComPorts.currentText())
         self.ui.listWidgetLeaves.clear()
         self.ui.progressBar.setVisible(True)

@@ -3,6 +3,7 @@
 
 # Ignore all files in the build directory
 build/
+dist/*
 
 # Ignore all files in the history
 .history/
